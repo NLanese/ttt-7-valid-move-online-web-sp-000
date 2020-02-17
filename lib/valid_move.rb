@@ -4,6 +4,6 @@ def valid_move?(board, input)
   elsif !(board[input] == " " && board[input] == "" && board[input] == nil)
     return false
   else
-    return true
+    return 0
   end
 end
