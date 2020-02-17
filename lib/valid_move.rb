@@ -1,5 +1,5 @@
 def valid_move?(board, input)
-  if (input > 9 || input < 1)
+  if (input > 8 || input < 0)
     return false
   elsif !(board[input] == " " && board[input] == "" && board[input] == nil)
     return false
